@@ -1,0 +1,44 @@
+@media screen and (max-width: 1230px){
+/* Card “Accommodation in Marseille" */
+    .accomodation_container{
+        width: 60%;
+    }
+
+    .card_accommodation{
+        flex-basis: calc(50% - 55px);
+        margin-bottom: 20px;
+    }
+
+    .accomodation_container h2{
+        padding-bottom: 25px;
+    }
+        
+    .card_accommodation:nth-child(3){
+       margin-right: 40px;
+    }
+    
+    .card_accommodation:nth-child(4){
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    
+    .card_accommodation:nth-child(5){
+        margin-left: 30px; 
+    }
+    
+    .card_accommodation:nth-child(6){
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+    
+    .card_accommodation:nth-child(7){
+        margin-right: 40px;
+    }
+
+/* Card "Most popular" */
+    .popular_container{
+        width: 40%;
+        max-height: 600px;
+    }
+
+}

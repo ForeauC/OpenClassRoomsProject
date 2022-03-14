@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+body{
+    font-family: 'Raleway', Verdana, Tahoma, sans-serif;
+}
+
+header, main{
+    padding: 0 40px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -5px;
+}
+
+h4{
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px 0 10px 50px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

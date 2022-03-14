@@ -1,0 +1,86 @@
+/*------------- filter lists---------*/
+.ul_filter{
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    padding-top: 10px;  
+}
+
+.ul_filter li{
+    padding-right: 20px;
+}
+
+.filter{
+    padding-left: 10px;
+}
+
+/*---------- icons_and_filter ---------*/
+.icons_and_filter{
+    display:flex;
+    align-items: center;
+    border-top: 2px solid #F2F2F2;
+    border-right: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-radius: 50px 50px 50px 50px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.icons_and_filter:hover{
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.icons_and_filter:nth-child(2){
+    width: 165px;
+}
+   
+.icons_and_filter:nth-child(3){
+    width: 130px;
+}
+    
+.icons_and_filter:nth-child(4){
+    width: 165px;
+}
+
+.icons_and_filter:nth-child(5){
+    width: 218px;
+}
+
+.icons_filter{
+    display: flex;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: solid #DEEBFF;
+    border-radius: 45px 45px 45px 45px;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.filter_lists{
+    padding-left: 10px;
+}  
+/*---------- info and icons ------*/
+.info_and_icons{
+    display:flex;
+    align-items: center;
+}
+
+.info_and_icons i{
+    color: #0065FC;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}   
+
+.info{
+    padding-left: 10px;
+}
+    

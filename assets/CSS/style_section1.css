@@ -1,0 +1,277 @@
+.section_accommodation_popular{
+     width: 100%;
+     height: auto;
+     display: flex;
+}
+
+/*--------------- Card "Accomodation in Marseille" -----------*/
+.accomodation_container{
+    width: 66.66666%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin: 25px 20px 20px 0px;
+}
+
+.accomodation_container h2{
+    font-weight: bold;
+    font-size: 21px;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.card_accommodation{
+    flex-basis: calc(33.33333% - 47px);
+    height: 200px;
+    max-width: 460px;
+    max-height: 200px;
+    min-width: 150px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 13px -7px #c0bfbf;
+    background-color: white; 
+}
+
+.card_accommodation:nth-child(2){
+    margin-left: 40px;
+}
+
+.card_accommodation:nth-child(3){
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card_accommodation:nth-child(4){
+    margin-right: 40px;
+}
+
+.card_accommodation:nth-child(5){
+    margin-left: 40px;
+}
+
+.card_accommodation:nth-child(6){
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card_accommodation:nth-child(7){
+    margin-right: 40px;
+}
+
+.card_accommodation:hover{
+    background-color: rgba(222, 235, 255, 0.384)
+}
+
+.card_accommodation h4{
+    padding: 0;
+}
+
+.card_img{
+    border-radius: 20px 20px 0 0;
+    height: 115px;
+    margin: 5px 5px 0 5px; 
+}
+
+.card_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_body{
+    padding-left: 7%;
+    box-sizing: border-box;
+}
+
+.card_price{
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.show_more{
+    font-weight: bold;
+    width: 80%;
+    padding: 0 0 20px 30px;
+}
+
+/*--------------- Icons "rating" accomodation-----------*/
+.card_icons_rating_AC{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+.card_icons_rating_AC i:nth-child(5){
+    color: grey;
+}
+
+.card_icons_rating_HP{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+.card_icons_rating_HM{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+.card_icons_rating_HM i:nth-child(5){
+    color: grey;
+}
+
+.card_icons_rating_HDM{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+.card_icons_rating_HDM i:nth-child(n+4){
+    color: grey;
+}
+
+.card_icons_rating_AP{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+.card_icons_rating_AP i:nth-child(5){
+    color: grey;
+}
+
+.card_icons_rating_HA{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+/*------------------- Card "Most popular" --------------*/
+.popular_container{
+    width: 33.33333%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin: 25px 0px 20px 20px;
+    padding-bottom: 30px;
+}
+
+.popular_title_and_logo{
+    display: flex;
+    align-content: space-between;
+}
+
+.popular_title_and_logo i{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 45px 40px 0 0;
+}
+
+.popular_container h2{
+    font-weight: bold;
+    font-size: 21px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.card_popular{
+    flex-basis: calc(100% - 30px);
+    height: 141px;
+    max-height: 141px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 13px -7px #c0bfbf;
+    background-color: white;
+    margin: 0px 40px 35px 40px;
+}
+
+.card_popular:hover{
+    background-color: rgba(222, 235, 255, 0.384)
+}
+
+.card_popular h4{
+    padding: 0;
+}
+
+.card_popular h4:nth-child(1){
+    padding-right: 15%;
+}
+
+.card_popular a{
+    display: flex;
+}
+
+.card_img_popular{
+    width: 37%;
+    height: 130px;
+    margin: 5px 0 5px 5px;  
+}
+
+.card_img_popular img{
+    border-radius: 20px 0 0 20px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_body_popular{ 
+    width: 63%;
+    padding-left: 6%;
+    padding-right: 1%;
+}
+
+.card_price_popular{
+    width: 80%;
+    font-size: 14px;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    margin-right: 0;
+}
+
+/*--------------- Icons "rating" popular -----------*/
+.card_icons_rating_popular_SM{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 11px;
+    letter-spacing: -1px;
+}   
+
+.card_icons_rating_popular_CCH{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 11px;
+    letter-spacing: -1px;
+}
+
+.card_icons_rating_popular_CCH i:nth-child(5){
+    color: grey;
+}
+
+.card_icons_rating_popular_HBB{
+    color: #0065FC;
+    margin-bottom: 6%;
+    font-size: 11px;
+    letter-spacing: -1px;
+}
+
+.card_icons_rating_popular_HBB i:nth-child(5){
+    color: grey;
+}

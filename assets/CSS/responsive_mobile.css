@@ -1,0 +1,228 @@
+@media screen and (max-width: 768px){
+    header, main{
+        padding: 0;
+    }
+   
+    .title_search{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .ul_filter{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .info_and_icons{
+        padding-left: 20px;
+    }
+
+/* header */   
+    .nav_header{
+        flex-wrap: wrap;
+    }
+    
+    .logo{
+        margin: 30px auto 0 auto;
+    }
+    
+    .header_links{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .nav_links{
+        text-align: center;
+        width: 50%;
+        padding: 10px 0 10px 0;
+        border-bottom: 5px solid #F2F2F2 ;
+    }
+    
+    .nav_links:hover{
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid #0065FC; 
+    }
+
+/* Title and search form */ 
+    .button_search{
+        width: 50px;
+        border-radius: 15px;
+        padding-bottom: 12px;
+    }
+
+    input{
+        margin-right: -20px;
+    }
+
+    .button_search span{ 
+        display: none;  
+    }
+
+    .fa-solid.fa-magnifying-glass{
+        visibility: visible;
+    }
+
+/* Filter lists */
+    .ul_filter{
+        font-size: 14px;
+    }
+
+    .icons_and_filter{
+        margin-right: 10px;
+    }
+
+    .icons_and_filter:nth-child(2){
+        width: 140px;
+    }
+
+    .icons_and_filter:nth-child(3){
+        width: 110px;
+    }
+
+    .icons_and_filter_3:nth-child(4){
+        width: 160px;
+    }
+
+    .icons_and_filter_4:nth-child(5){
+        width: 185px;
+    }
+
+    .info{
+        margin-right: 20px;
+    }
+
+/* Section 1 */
+    .section_accommodation_popular{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+/* Card "Most popular" */ 
+    .popular_container{
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0px;
+    }
+
+    .card_popular{
+        flex-basis: calc(100% - 60px);
+        margin: 0 30px 30px 30px;
+    }
+
+    .card_img_popular{
+        height: 130px;   
+    }
+   
+/* Card “Accommodation in Marseille" */
+    .accomodation_container{
+        width: 100%;
+        flex-direction: row;
+        margin-right: 0;
+        background-color: white;
+    }
+
+    .card_accommodation{
+        flex-basis: calc(100%);
+        max-width: 720px;
+        height: 210px;
+        max-height: 210px;
+    }
+    
+    .card_accommodation:nth-child(n+2){
+        margin: 0 30px 30px 30px;
+    }
+    
+    .accomodation_container h2{
+        width: 80%;
+        padding-top: 0;
+    }
+
+    .show_more{
+        padding-bottom: 0;
+        margin-top: -10px;
+    }
+/* section2 */
+    .activites_container{
+        flex-direction: column;
+        width: 100%;
+    }   
+
+    .Title_activies{
+        width: 80%;
+        margin-left: 30px;
+        padding-top: 0;
+    }
+
+/* Card "Activites" */
+    .card_activites_container{
+        width: calc(100% - 60px);
+    }
+
+    .card_activites_container:nth-child(-n+4){
+        margin: 0 30px 30px 30px;
+    }
+
+    .card_activites{
+        width: 100%;
+        max-width: 710px;
+    }
+
+    .card_activites.split:nth-child(1){
+        margin-bottom: 30px;
+    }   
+
+/* card "Vieux port" and Parc National des Calanques */
+    .card_img_activities_1{
+        height: 160px;   
+    }
+
+    .card_img_activities_1 img{
+        height: 160px;   
+    }
+
+/* card "Fort de Pomégues" */
+    .card_img_activities_2{
+        height: 160px;   
+    }
+
+    .card_img_activities_2 img{
+        height: 160px;   
+    }
+
+/* card "iles de frioul" */
+    .card_img_activities_3{
+        height: 160px;   
+    }
+
+    .card_img_activities_3 img{
+        height: 160px;   
+    }
+
+/* card "Parc de Longchamp" */
+    .card_img_activities_5{
+        height: 160px;   
+    }
+
+    .card_img_activities_5 img{
+        height: 160px;   
+    }
+
+/* footer */
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .section_footer{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 336px){
+    input{
+      font-size: 14px;  
+      width: 180px;
+    }
+}
+

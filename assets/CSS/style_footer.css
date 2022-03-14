@@ -1,0 +1,24 @@
+.footer_container{
+    width: 100%;
+    display: flex;
+    background-color: #F2F2F2 ;
+}
+
+/*--------------- Ul "about"-----------*/
+.section_footer{
+    display: flex;
+    flex-direction: column; 
+    width: 33.33333%;
+}
+
+.li_footer{
+    margin: 0 0 20px 50px;
+}
+
+    
+
+
+
+
+
+

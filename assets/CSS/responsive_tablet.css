@@ -1,0 +1,98 @@
+@media screen and (max-width: 990px){
+    body{
+        margin: 0;
+    }
+
+/* filter lists */
+    .filter{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .ul_filter{
+        flex-wrap: wrap;
+    }
+
+    .icons_and_filter{
+        margin-bottom: 10px;
+    }
+
+    .icons_and_filter:nth-child(2){
+        width: 165px;
+    }
+
+    .icons_and_filter:nth-child(3){
+        width: 130px;
+    }
+
+    .icons_and_filter:nth-child(4){
+        width: 165px;
+    }
+
+    .icons_and_filter:nth-child(5){
+        width: 218px;
+    }
+
+    .info{
+        margin-top: 20px;
+    }
+
+/* Container "Accomadtion" "Popular" */
+    .section_accommodation_popular{
+        flex-basis: calc(100% - 80px) ;
+    }
+
+/* Card “Accommodation in Marseille" */
+    .accomodation_container{
+        flex-basis: calc(45% - 20px);
+    }    
+
+    .card_accommodation{
+        flex-basis: calc(100% - 70px);
+        max-width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .card_accommodation:nth-child(n+2){
+        margin-left: 35px;
+        margin-right: 35px;  
+     }
+
+/* Card "Most popular" */     
+    .popular_container{
+        flex-basis: calc(55% - 20px);
+        max-height: 600px;
+    }
+
+    .card_popular{
+        flex-basis: calc(100% - 80px);
+    }
+
+/* Card "Activites" */
+    .activites_container{
+        flex-wrap: wrap;
+        flex-basis: calc(100% - 80px);
+    }
+
+    .card_activites_container{
+        flex-basis: calc(50% - 23px);
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .card_activites_container:nth-child(3){
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .card_activites_container:nth-child(4){
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+
+    .card_activites{
+        max-width: 420px;
+    }
+      
+}

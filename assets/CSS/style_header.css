@@ -1,0 +1,38 @@
+/*-----------------logo and nav bar----------------*/
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+    padding-bottom: 25px;   
+}
+
+.logo{
+    width: 90px;
+    height: auto;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.nav_links{
+    display: inline-block; 
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 30px;
+    position:relative;    
+    border-top: 5px solid transparent; 
+}
+
+.nav_links a{
+    -webkit-transition: color 1s;
+    transition: 200ms;    
+}
+
+.nav_links a:hover{
+    color: #0065FC;  
+}
+
+.nav_links:hover{
+    color: #0065FC;  
+    border-top: 5px solid #0065FC; 
+}
